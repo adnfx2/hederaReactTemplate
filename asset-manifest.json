@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "./static/css/main.afd7172b.chunk.css",
+    "main.js": "./static/js/main.8a57a367.chunk.js",
+    "main.js.map": "./static/js/main.8a57a367.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.94b5ec7b.js",
+    "runtime-main.js.map": "./static/js/runtime-main.94b5ec7b.js.map",
+    "static/css/2.6109bad8.chunk.css": "./static/css/2.6109bad8.chunk.css",
+    "static/js/2.16e491fa.chunk.js": "./static/js/2.16e491fa.chunk.js",
+    "static/js/2.16e491fa.chunk.js.map": "./static/js/2.16e491fa.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/2.6109bad8.chunk.css.map": "./static/css/2.6109bad8.chunk.css.map",
+    "static/css/main.afd7172b.chunk.css.map": "./static/css/main.afd7172b.chunk.css.map",
+    "static/js/2.16e491fa.chunk.js.LICENSE.txt": "./static/js/2.16e491fa.chunk.js.LICENSE.txt",
+    "static/media/hedera-logo.18b7f40e.svg": "./static/media/hedera-logo.18b7f40e.svg",
+    "static/media/index.css": "./static/media/roboto-vietnamese-400-normal.52cebac0.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.94b5ec7b.js",
+    "static/css/2.6109bad8.chunk.css",
+    "static/js/2.16e491fa.chunk.js",
+    "static/css/main.afd7172b.chunk.css",
+    "static/js/main.8a57a367.chunk.js"
+  ]
+}
