@@ -24,11 +24,10 @@ Before starting this project it's highly recommended to create a Hedera test acc
 After registering you're going to need the brand new accountId and privateKey given to you in a .env file. 
 
 Create a .env file at the root of your project and use your keys with the following variables:
-
-* `#.env`
-* `REACT_APP_MY_ACCOUNT_ID = 'paste_here_your_account_id`
-* `REACT_APP_MY_PRIVATE_KEY= 'paste_here_your_private_key'`
-
+```javascript
+ REACT_APP_MY_ACCOUNT_ID = 'paste_here_your_account_id'
+ REACT_APP_MY_PRIVATE_KEY= 'paste_here_your_private_key'
+```
 You can start the template running 
 
 ```bash
