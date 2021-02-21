@@ -1,8 +1,7 @@
 # Hedera React Template
 
 This template allows you to create a front-end application that connects to Hedera Testnet with minimal
-configuration. To learn about Hedera SDK, visit the
-[Hedera sdk-js](https://docs.hedera.com/guides/getting-started/javascript).
+configuration. To learn about Hedera SDK, check out -> [hedera-sdk-js](https://docs.hedera.com/guides/getting-started/javascript).
 
 
 
