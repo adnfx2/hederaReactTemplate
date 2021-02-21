@@ -33,7 +33,7 @@ You can start the template running
 ```bash
 yarn start
 ```
-### Template preview
+## Template preview
 
 [Try the template here](https://adnfx2.github.io/hederaReactTemplate/)
 
