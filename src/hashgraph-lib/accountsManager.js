@@ -4,7 +4,7 @@ export const getDevAccount = () => {
   const devAccountId = process.env.REACT_APP_MY_ACCOUNT_ID;
   const devPrivateKey = process.env.REACT_APP_MY_PRIVATE_KEY;
   if (!devAccountId || !devPrivateKey) {
-    console.warn("Hedera testing account not present");
+    console.log("%cHedera testing account not present", "color:yellow");
     return;
   }
   return { accountId: devAccountId, privateKey: devPrivateKey };
@@ -43,7 +43,7 @@ export const AccountsManagerProvider = ({ children }) => {
 
   const defaultState = {
     accountSelected: {},
-    accountsList: [devAccount],
+    accountsList: devAccount ? [devAccount] : [],
   };
 
   const [state, dispatch] = useReducer(accountsReducer, defaultState);

@@ -49,7 +49,7 @@ const AccountsList = ({ accountId, accountsList }) => {
         <DialogTitle align="center">Accounts</DialogTitle>
         <DialogContent>
           <List>
-            {accountsList.map((wallet) => (
+            {accountsList?.map((wallet) => (
               <AccountListItem
                 key={wallet.accountId}
                 handleSelectAccount={handleSelectAccount}
