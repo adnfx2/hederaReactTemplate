@@ -74,7 +74,7 @@ export const AddAccountItem = ({ handleAddAccount }) => {
   };
 
   const handleOnSubmit = () => {
-    handleAddAccount(accountId, privateKey);
+    handleAddAccount({ accountId, privateKey });
     setAccountId("");
     setPrivateKey("");
     handleCloseAddAccount();
