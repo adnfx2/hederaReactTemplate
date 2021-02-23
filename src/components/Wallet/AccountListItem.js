@@ -50,7 +50,10 @@ const AccountListItem = ({
       <ListItemText primary={accountId} />
       <DeleteIcon
         className={classes.deleteButton}
-        onClick={handleDeleteAccount}
+        onClick={(e) => {
+          e.stopPropagation();
+          handleDeleteAccount(accountId);
+        }}
       />
     </ListItem>
   );
